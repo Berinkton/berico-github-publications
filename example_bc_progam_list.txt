@@ -1,0 +1,28 @@
+{
+  ["version"]=115,
+  ["basics"]={
+    name="BeriCo Basics",
+    libDirName="berico",
+    dirName="",
+    pos=0,
+    files={
+      "/boot/215_berico.lua",
+      "lib/berico/berico.lua"
+    }
+  },
+  [1]={
+    name="BNet Server",
+    libDirName="berico/bnet",
+    dirName="bnet/server",
+    pos=1,
+    files={
+      "/lib/berico/bnet/bnetMain.lua",
+      "/usr/bin/bnet-server.lua"
+    }
+  },
+  [2]={
+    name="Stargate Controler",
+    pos=2,
+    files={}
+  }
+}
