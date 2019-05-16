@@ -15,7 +15,3 @@ end
 if fs.exists(activePath.."/bnet-server.active") then
   os.execute("rc bnet-server start")
 end
-
-if fs.exists("/usr/bcReboot.active") then
-  os.execute("/home/bam.lua")
-end
